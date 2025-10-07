@@ -235,11 +235,9 @@
                 <li>Điện thoại: +84 123 456 789</li>
                 <li>Email: NguyenVanA123gmail.com</li>
             </ul>
-    </main>
+
     
     <footer>
         <p>&copy; 2025 Khám Phá Việt Nam. Tất cả các quyền được bảo lưu.</p>
         <p>Trang web này được tạo ra cho mục đích học tập và giới thiệu về Việt Nam.</p>
     </footer>
-</body>
-</html>
