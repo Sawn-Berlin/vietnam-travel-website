@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khám Phá Việt Nam - Du Lịch và Văn Hóa</title>
+    <meta name="description" content="Trang web giới thiệu về du lịch và văn hóa Việt Nam">
+    
+    <!-- Favicon từ file co viet.jpg -->
+    <link rel="icon" type="image/jpg" href="co viet.webp">
+    <link rel="apple-touch-icon" href="co viet.webp">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            background: linear-gradient(to right, #e74c3c, #c0392b);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem 0;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav li {
+            margin: 0 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #e74c3c;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        
+        section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e74c3c;
+        }
+        
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .image-card {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .image-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .image-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .image-card p {
+            padding: 1rem;
+            background-color: white;
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        ul {
+            padding-left: 1.5rem;
+            margin: 1rem 0;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .external-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 1rem;
+            transition: background-color 0.3s;
+        }
+        
+        .external-link:hover {
+            background-color: #2980b9;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+            
+            .image-gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Khám Phá Việt Nam</h1>
+        <p>Đất nước hình chữ S với vẻ đẹp thiên nhiên và văn hóa đa dạng</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#gioi-thieu">Giới thiệu</a></li>
+            <li><a href="#dia-diem">Địa điểm nổi tiếng</a></li>
+            <li><a href="#am-thuc">Ẩm thực</a></li>
+            <li><a href="#lien-he">Liên hệ</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="gioi-thieu">
+            <h2>Giới thiệu về Việt Nam</h2>
+            <p>Việt Nam là một quốc gia nằm ở phía đông bán đảo Đông Dương, thuộc khu vực Đông Nam Á. Với bề dày lịch sử hơn 4000 năm, Việt Nam sở hữu một nền văn hóa phong phú và đa dạng cùng với cảnh quan thiên nhiên tuyệt đẹp.</p>
+            
+            <div class="image-gallery">
+                <div class="image-card">
+                    <img src="phong canh viet.jpg" alt="Phong cảnh Việt Nam">
+                    <p>Phong cảnh thiên nhiên Việt Nam</p>
+                </div>
+                <div class="image-card">
+                    <img src="van-hoa-viet-nam.jpg" alt="Văn hóa Việt Nam">
+                    <p>Văn hóa truyền thống Việt Nam</p>
+                </div>
+                <div class="image-card">
+                    <img src="con nguoi viet.jpg" alt="Con người Việt Nam">
+                    <p>Con người Việt Nam thân thiện</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="dia-diem">
+            <h2>Địa điểm du lịch nổi tiếng</h2>
+            <p>Việt Nam có nhiều điểm đến hấp dẫn từ Bắc vào Nam. Dưới đây là một số địa điểm nổi tiếng:</p>
+            
+            <ul>
+                <li>Vịnh Hạ Long - Di sản thiên nhiên thế giới với hàng nghìn hòn đảo đá vôi</li>
+                <li>Phố cổ Hội An - Thành phố cổ được UNESCO công nhận là di sản văn hóa thế giới</li>
+                <li>Sapa - Thị trấn vùng cao với ruộd bậc thang và văn hóa các dân tộc thiểu số</li>
+                <li>Phong Nha - Kẻ Bàng - Vườn quốc gia với hệ thống hang động lớn nhất thế giới</li>
+                <li>Đồng bằng sông Cửu Long - Vùng đất của những cánh đồng lúa, kênh rạch chằng chịt</li>
+            </ul>
+            
+            <a href="https://www.vietnam.travel/" class="external-link" target="_blank">Khám phá thêm về du lịch Việt Nam</a>
+        </section>
+        
+        <section id="am-thuc">
+            <h2>Ẩm thực Việt Nam</h2>
+            <p>Ẩm thực Việt Nam nổi tiếng với sự đa dạng, hương vị tinh tế và sự kết hợp hài hòa giữa các nguyên liệu tươi ngon.</p>
+            
+            <ul>
+                <li>Phở - Món ăn truyền thống với nước dùng thơm ngon và bánh phở mềm</li>
+                <li>Bánh mì - Ổ bánh mì kẹp với nhiều loại nhân, kết hợp ẩm thực Việt - Pháp</li>
+                <li>Bún chả - Món ăn Hà Nội với thịt nướng và nước mắm chua ngọt</li>
+                <li>Cao lầu - Món mì đặc sản của Hội An với sợi mì vàng dai và thịt xá xíu</li>
+            </ul>
+            <a href="https://www.vietworldkitchen.com/" class="external-link" target="_blank">Khám phá thêm về ẩm thực Việt Nam</a>
+        </section>
+        <section id="lien-he">
+            <h2>Liên hệ</h2>
+            <p>Nếu bạn có bất kỳ câu hỏi hoặc muốn biết thêm thông tin về du lịch Việt Nam, hãy liên hệ với chúng tôi qua số đien thoại hoặc email dưới đây:</p>
+            <ul>
+                <li>Điện thoại: +84 123 456 789</li>
+                <li>Email: NguyenVanA123gmail.com</li>
+            </ul>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Khám Phá Việt Nam. Tất cả các quyền được bảo lưu.</p>
+        <p>Trang web này được tạo ra cho mục đích học tập và giới thiệu về Việt Nam.</p>
+    </footer>
+</body>
+</html>
