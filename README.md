@@ -6,9 +6,9 @@
     <title>Khám Phá Việt Nam - Du Lịch và Văn Hóa</title>
     <meta name="description" content="Trang web giới thiệu về du lịch và văn hóa Việt Nam">
     
-    <!-- Favicon từ file co viet.jpg -->
-    <link rel="icon" type="image/jpg" href="co viet.webp">
-    <link rel="apple-touch-icon" href="co viet.webp">
+   
+    <link rel="icon" type="image/jpg" href="co-viet.webp">
+    <link rel="apple-touch-icon" href="co-viet.webp">
     
     <style>
         * {
@@ -187,7 +187,7 @@
             
             <div class="image-gallery">
                 <div class="image-card">
-                    <img src="phong canh viet.jpg" alt="Phong cảnh Việt Nam">
+                    <img src="phong-canh-viet.jpg" alt="Phong cảnh Việt Nam">
                     <p>Phong cảnh thiên nhiên Việt Nam</p>
                 </div>
                 <div class="image-card">
@@ -195,7 +195,7 @@
                     <p>Văn hóa truyền thống Việt Nam</p>
                 </div>
                 <div class="image-card">
-                    <img src="con nguoi viet.jpg" alt="Con người Việt Nam">
+                    <img src="con-nguoi-viet.jpg" alt="Con người Việt Nam">
                     <p>Con người Việt Nam thân thiện</p>
                 </div>
             </div>
@@ -208,7 +208,7 @@
             <ul>
                 <li>Vịnh Hạ Long - Di sản thiên nhiên thế giới với hàng nghìn hòn đảo đá vôi</li>
                 <li>Phố cổ Hội An - Thành phố cổ được UNESCO công nhận là di sản văn hóa thế giới</li>
-                <li>Sapa - Thị trấn vùng cao với ruộd bậc thang và văn hóa các dân tộc thiểu số</li>
+                <li>Sapa - Thị trấn vùng cao với ruộng bậc thang và văn hóa các dân tộc thiểu số</li>
                 <li>Phong Nha - Kẻ Bàng - Vườn quốc gia với hệ thống hang động lớn nhất thế giới</li>
                 <li>Đồng bằng sông Cửu Long - Vùng đất của những cánh đồng lúa, kênh rạch chằng chịt</li>
             </ul>
@@ -228,13 +228,15 @@
             </ul>
             <a href="https://www.vietworldkitchen.com/" class="external-link" target="_blank">Khám phá thêm về ẩm thực Việt Nam</a>
         </section>
+        
         <section id="lien-he">
             <h2>Liên hệ</h2>
-            <p>Nếu bạn có bất kỳ câu hỏi hoặc muốn biết thêm thông tin về du lịch Việt Nam, hãy liên hệ với chúng tôi qua số đien thoại hoặc email dưới đây:</p>
+            <p>Nếu bạn có bất kỳ câu hỏi hoặc muốn biết thêm thông tin về du lịch Việt Nam, hãy liên hệ với chúng tôi qua số điện thoại hoặc email dưới đây:</p>
             <ul>
                 <li>Điện thoại: +84 123 456 789</li>
-                <li>Email: NguyenVanA123gmail.com</li>
+                <li>Email: NguyenVanA123@gmail.com</li>
             </ul>
+        </section> 
     </main>
     
     <footer>
